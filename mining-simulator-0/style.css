@@ -26,7 +26,16 @@
 #play:hover
 {
   height: 25.5%;
-  transform: rotate(-3deg);
+}
+
+#settings:hover
+{
+  top: 19.75%;
+}
+
+#play:hover
+{
+  bottom: 19.75%;
 }
 
 body
