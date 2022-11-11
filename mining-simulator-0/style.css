@@ -6,6 +6,22 @@
   width: 100%;
 }
 
+#settings
+{
+  height: 25%;
+  position: absolute;
+  left: 66%;
+  top: 25%;
+}
+
+#play
+{
+  height: 25%;
+  position: absolute;
+  left: 66%;
+  bottom: 25%;
+}
+
 body
 {
   overflow: hidden;
