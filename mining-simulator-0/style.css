@@ -10,16 +10,16 @@
 {
   height: 25%;
   position: absolute;
-  left: 66%;
-  top: 25%;
+  left: 50%;
+  top: 20%;
 }
 
 #play
 {
   height: 25%;
   position: absolute;
-  left: 66%;
-  bottom: 25%;
+  left: 50%;
+  bottom: 20%;
 }
 
 body
