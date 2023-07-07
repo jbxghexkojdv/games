@@ -48,7 +48,90 @@ body
   overflow: hidden;
 }
 
-#story-animation
+#story-animation,
+#level-select-menu
 {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#level-select-menu img
+{
+  height: 15%;
+  width: 15%;
+  border: 3px solid black;
+}
+
+#level-select-menu .r1
+{
+  top: 0.8333333%;
+}
+
+#level-select-menu .c1
+{
+  left: 0.8333333%;
+}
+
+#level-select-menu .r2
+{
+  top: 17.5%;
+}
+
+#level-select-menu .c2
+{
+  left: 17.5%;
+}
+
+#level-select-menu .r3
+{
+  top: 34.1666667%;
+}
+
+#level-select-menu .c3
+{
+  left: 34.1666667%;
+}
+
+#level-select-menu .r4
+{
+  top: 50.8333333%;
+}
+
+#level-select-menu .c4
+{
+  left: 50.8333333%;
+}
+
+#level-select-menu .r5
+{
+  top: 67.5%;
+}
+
+#level-select-menu .c5
+{
+  left: 67.5%;
+}
+
+#level-select-menu .r6
+{
+  top: 84.1666667%;
+}
+
+#level-select-menu .c6
+{
+  left: 84.1666667%;
+}
+
+#level-select-menu img.complete
+{
+  border: 3px solid #0f0;
+}
+
+#level-select-menu img.incomplete
+{
+  border: 3px solid #f00;
 }

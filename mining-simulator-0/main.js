@@ -3,7 +3,6 @@
 const physics = (await import(location.origin == "https://jbxghexkojdv.github.io" ? "../../physics/script.js" : "../../mywebsite/physics/script.js")).default;
 
 // Variables
-
 let levelsCompleted = [];
 for(let i = 0; i < 36; i++)
 {
@@ -23,15 +22,17 @@ class LevelElem extends HTMLElement
   }
 }
 
-function storyAnimation()
+async function storyAnimation()
 {
   document.getElementById("main-menu").style.display = "none";
   document.getElementById("story-animation").style.display = "block";
-  new Animation(document.querySelector("#story-animation img"),
+  await new Animation(document.querySelector("#story-animation img"),
   new Frame("./img/lvl2.png", 1), 
   new Frame("./img/lvl1.png", 0.5),
   new Frame("./img/lvl2.png", 1)
   ).display();
+  document.getElementById("story-animation").style.display = "none";
+  document.getElementById("level-select-menu").style.display = "block";
 }
 
 // MAIN FUNCTION!!!!!!!!!
